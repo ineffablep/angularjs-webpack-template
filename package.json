@@ -1,54 +1,54 @@
 {
-  "name": "angular-webpack-workflow",
+  "name": "angular-webpack-template",
   "version": "1.0.0",
-  "description": "A workflow for Angular made with Webpack",
+  "description": "A project template for Angular made with Webpack",
   "scripts": {
     "build": "webpack --config webpack.build.js --bail -p",
-    "dev": "node node_modules/.bin/webpack-dev-server --history-api-fallback --hot --inline --progress",
+    "start": "node node_modules/.bin/webpack-dev-server --history-api-fallback --hot --inline --progress",
     "test": "karma start",
     "test:live": "karma start --auto-watch --no-single-run"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Foxandxss/angular-webpack-workflow.git"
+    "url": "https://github.com/ineffablep/angularjs-webpack-template.git"
   },
-  "author": "Jesus Rodriguez",
+  "author": "Sireesh Pangaluri",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Foxandxss/angular-webpack-workflow/issues"
+    "url": "https://github.com/ineffablep/angularjs-webpack-template"
   },
-  "homepage": "https://github.com/Foxandxss/angular-webpack-workflow",
+  "homepage": "https://github.com/ineffablep/angularjs-webpack-template",
   "dependencies": {
     "angular": "^1.3.16",
-    "angular-ui-router": "^0.2.15",
-    "autoprefixer-core": "^5.2.0",
+    "angular-ui-router": "^0.3.1",
     "babel-core": "^5.5.8",
     "babel-loader": "^5.1.4",
     "babel-runtime": "^5.5.8",
     "bootstrap": "^3.3.5",
-    "css-loader": "^0.14.5",
-    "extract-text-webpack-plugin": "^0.8.2",
-    "file-loader": "^0.8.4",
-    "html-webpack-plugin": "^1.5.2",
-    "node-libs-browser": "^0.5.2",
-    "postcss-loader": "^0.4.4",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.22.0",
+    "node-libs-browser": "^1.0.0",
+    "postcss-loader": "^0.9.1",
     "raw-loader": "^0.5.1",
-    "style-loader": "^0.12.3",
+    "style-loader": "^0.13.1",
     "webpack": "^1.9.11",
     "webpack-dev-server": "^1.9.0"
   },
   "devDependencies": {
     "angular-mocks": "^1.4.1",
-    "isparta-instrumenter-loader": "^0.2.1",
+    "autoprefixer": "^6.3.7",
+    "isparta-loader": "^2.0.0",
     "jasmine-core": "^2.3.4",
-    "karma": "^0.13.9",
-    "karma-coverage": "^0.4.2",
-    "karma-jasmine": "^0.3.5",
-    "karma-phantomjs-launcher": "^0.2.0",
+    "karma": "^1.1.0",
+    "karma-coverage": "^1.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.1",
     "karma-sourcemap-loader": "^0.3.5",
-    "karma-spec-reporter": "0.0.19",
+    "karma-spec-reporter": "0.0.26",
     "karma-webpack": "^1.5.1",
     "null-loader": "^0.1.1",
-    "phantomjs": "^1.9.17"
+    "phantomjs-prebuilt": "^2.1.7"
   }
 }
